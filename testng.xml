@@ -1,20 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MultiThreadingSuite" parallel="tests" thread-count="2">
-	<parameter name="url" value="https://www.noon.com/uae-en/"/>
-        <parameter name="email" value="tester9999999999@gmail.com"/>
-        <parameter name="password" value="9999999999"/>
-        <parameter name="item" value="pen"/>
-    <test name="ChromeCrossBrowserTesting-ThreadedTest1">
-        <parameter name="browserType" value="Chrome"/>
-        
+<suite name="MultiThreadingSuite">
+    <test name="Appium Web Test">
+       
         <classes>
-            <class name="Testngsession.CrossBrowserTesting"/>
-        </classes>
-    </test>
-    <test name="FirefoxCrossBrowserTesting-ThreadedTest2">
-        <parameter name="browserType" value="Firefox"/>
-        <classes>
-            <class name="Testngsession.CrossBrowserTesting"/>
+            <class name="Testngsession.Appiumdemo"/>
             
         </classes>
     </test>
