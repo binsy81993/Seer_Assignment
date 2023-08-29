@@ -19,3 +19,4 @@ Implementing a test automation framework using Testng
 * Link --> https://drive.google.com/file/d/10nsagcsj-ONYQ2Ly_ehdY7t1CzBiukrX/view?usp=sharing
 * Link--> Appium task --> https://drive.google.com/file/d/1KaZG4j3HfKVOS7o0h6iiX8zJ3Iw1sR5W/view?usp=sharing
 * Link--> MultiThreading --> https://drive.google.com/file/d/1XgRARFbPA8_Juq5PHsHYwypgi4tAFFWk/view?usp=sharing
+* Link --> Cross Browser --> https://drive.google.com/file/d/1ruHSX3iZVAuqCbimojbhs0RkkrpXzwTR/view?usp=sharing
