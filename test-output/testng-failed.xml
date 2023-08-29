@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="9999999999"/>
+  <parameter name="item" value="pen"/>
+  <parameter name="url" value="https://www.noon.com/uae-en/"/>
+  <parameter name="email" value="tester9999999999@gmail.com"/>
+  <test thread-count="5" name="ChromeCrossBrowserTesting(failed)">
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="Testngsession.CrossBrowserTesting">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testngsession.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- ChromeCrossBrowserTesting(failed) -->
+  <test thread-count="5" name="FirefoxCrossBrowserTesting(failed)">
+    <parameter name="browserType" value="Firefox"/>
+    <classes>
+      <class name="Testngsession.CrossBrowserTesting">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testngsession.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FirefoxCrossBrowserTesting(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->

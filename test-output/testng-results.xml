@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-29T09:29:28 GST" name="MultiThreadingSuite" finished-at="2023-08-29T09:29:43 GST" duration-ms="14786">
+    <groups>
+    </groups>
+    <test started-at="2023-08-29T09:29:28 GST" name="ChromeCrossBrowserTesting-ThreadedTest1" finished-at="2023-08-29T09:29:37 GST" duration-ms="8716">
+      <class name="Testngsession.CrossBrowserTesting">
+        <test-method signature="testExamplePageOnMultipleBrowsers(java.lang.String,java.lang.String)[pri:1, instance:Testngsession.CrossBrowserTesting@5a56cdac]" started-at="2023-08-29T09:29:28 GST" name="testExamplePageOnMultipleBrowsers" finished-at="2023-08-29T09:29:36 GST" duration-ms="7616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.noon.com/uae-en/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExamplePageOnMultipleBrowsers -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:Testngsession.CrossBrowserTesting@5a56cdac]" started-at="2023-08-29T09:29:36 GST" name="loginTest" finished-at="2023-08-29T09:29:37 GST" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester9999999999@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testngsession.CrossBrowserTesting -->
+    </test> <!-- ChromeCrossBrowserTesting-ThreadedTest1 -->
+    <test started-at="2023-08-29T09:29:28 GST" name="FirefoxCrossBrowserTesting-ThreadedTest2" finished-at="2023-08-29T09:29:43 GST" duration-ms="14786">
+      <class name="Testngsession.CrossBrowserTesting">
+        <test-method signature="testExamplePageOnMultipleBrowsers(java.lang.String,java.lang.String)[pri:1, instance:Testngsession.CrossBrowserTesting@e350b40]" started-at="2023-08-29T09:29:28 GST" name="testExamplePageOnMultipleBrowsers" finished-at="2023-08-29T09:29:40 GST" duration-ms="11910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.noon.com/uae-en/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExamplePageOnMultipleBrowsers -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:Testngsession.CrossBrowserTesting@e350b40]" started-at="2023-08-29T09:29:40 GST" name="loginTest" finished-at="2023-08-29T09:29:43 GST" duration-ms="2821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester9999999999@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Testngsession.CrossBrowserTesting -->
+    </test> <!-- FirefoxCrossBrowserTesting-ThreadedTest2 -->
+  </suite> <!-- MultiThreadingSuite -->
+</testng-results>
